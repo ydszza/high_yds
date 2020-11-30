@@ -1,0 +1,5 @@
+# this is a configuration file
+
+IP = 127.0.0.1
+PORT = 80
+EVENT_MODE = Event_EPOLL
