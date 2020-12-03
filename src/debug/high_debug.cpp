@@ -7,6 +7,10 @@ void Debug::printError(const char *error_msg) {
 
 void Debug::printInfo(const char *info_msg) {
     if (!info_msg) return;
-    printf("%s\n", info_msg);
+    std::cout << info_msg << std::endl;
+}
+
+void Debug::printInfo(const std::string &info_msg) {
+    std::cout << info_msg << std::endl;
 }
 
